@@ -30,11 +30,15 @@
 .header-box{
     display: flex;
     margin: 50px 120px 69px 120px;
+    align-items: center;
+    justify-content: center;
 }
 .header-text-box{
     margin: 70px 120px 70px 0px;
     width: 592px;
     height: 270px;
+    display: flex;
+    flex-direction:column;
     gap: 16px;
 }
 .header-text-box-title{
@@ -56,8 +60,9 @@
     color: white;
     font-size: 16px;
     justify-content: space-around;
+    margin-bottom: 16px;
 }
-.header-text-box-btn i{
+.header-text-box-btn i {
     margin-left:8px;
 }
 .header-img-box{
@@ -72,14 +77,45 @@
     height: 414px;
 }
 .logos{
+    border-radius: 5px;
     margin: 0px 165px 100px 165px;
-    border-top: 2px solid rgba(58, 58, 58, 0.541);
-    border-bottom: 2px solid rgba(58, 58, 58, 0.541);
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    gap: 61px;
+    border-top: 1px solid rgba(58, 58, 58, 0.541);
+    border-bottom: 1px solid rgba(58, 58, 58, 0.541);
+    display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-bottom: 35px;
     padding-top: 35px;
+}
+.logos:hover{
+    border-radius: 5px;
+    border-bottom: 1px solid rgba(58, 58, 58, 0.541);
+}
+.banner-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.product-box-title{
+    font-size: 28px;
+    color: rgba(58, 58, 58, 1);
+    margin-bottom: 30px;
+}
+.product-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.product{
+    width: 329px;
+    height: 476px;
+    padding: 15px 17px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.product img {
+    width: 300px;
+    height: 256px;
+    margin-bottom: 16px;
 }
