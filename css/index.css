@@ -109,13 +109,107 @@
 }
 .product{
     width: 329px;
-    height: 476px;
+    height: 456px;
     padding: 15px 17px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .product img {
     width: 300px;
     height: 256px;
-    margin-bottom: 16px; 
+    margin-bottom: 16px;
+}
+.product  h2{
+    font-size: 28px;
+    color: rgba(24, 25, 31, 1);
+}
+.product-p{
+    font-size: 28px;
+}
+.product-desc {
+    font-size: 14px;
+    width: 180px;
+    color: rgba(120, 120, 133, 1);
+    font-weight: bold;
+}
+.product-desc-l2{
+    font-size: 14px;
+    color: rgba(120, 120, 133, 1);
+    font-weight: bold;
+}
+.banner-one-ftr{
+    margin-top: 45px;
+    margin-right: -950px;
+    text-align: end;
+    color: rgba(224, 44, 109, 0.87);
+    font-size: 16px;
+}
+.banner-two{
+    margin: 100px 165px;
+    display: flex;
+    justify-content: center;
+    gap: 96px;
+}
+.banner-two-img{
+    width: 404px;
+    height: auto;
+}
+.banner-two-box{
+    padding: 23px 0;
+    text-align: start;
+}
+.banner-two-title{
+    font-size: 30px;
+    color: rgba(10, 8, 38, 1);
+    padding-bottom: 16px;
+}
+.banner-two-desc{
+    padding-bottom: 16px;
+    color: rgba(108, 108, 108, 1);
+    font-size: 15px;
+}
+.banner-two-btn, .banner-two-btn p{
+    width: 155px;
+    height: 44px;
+    color: white;
+    font-size: 16px;
+    background-color: rgba(224, 44, 109, 1);;
+}
+.footer{
+    height: 239px;
+    background-color: rgba(10, 8, 38, 1);
+}
+.footer-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.footer-title{
+    font-size:24px;
+    color: white;
+}
+.footer-desc{
+    color: rgba(217, 219, 225, 1);
+    font-size: 14px;
+    font-weight: bold;
+}
+.footer-icons {
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+}
+.footer-icons i {
+    display: flex; 
+    align-items: center;     
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.521);
+    height: 32px;
+    width: 32px;
+    border-radius: 50px;
 }
